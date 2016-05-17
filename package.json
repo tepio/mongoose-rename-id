@@ -1,14 +1,15 @@
 {
   "name": "mongoose-rename-id",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin to use id instead of _id",
   "main": "index.js",
   "dependencies": {
-    "lodash": "^4.12.0"
+    "lodash": "^4.12.0",
+    "mongoose-hook": "^0.1.5",
+    "mongoose": "^4.4.17"
   },
   "devDependencies": {
-    "ava": "^0.14.0",
-    "mongoose": "^4.4.17"
+    "ava": "^0.14.0"
   },
   "scripts": {
     "test": "ava -s"
