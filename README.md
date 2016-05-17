@@ -3,7 +3,7 @@
 Can change "_id" to "id" for all queries besides `Model.create()`.
 
 
-```
+```js
 var renameIdPlugin = require('mongoose-rename-id');
 
 schema.plugin(renameIdPlugin({newIdName: 'id'}));

@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-simple-id",
+  "name": "mongoose-rename-id",
   "version": "1.0.0",
   "description": "Plugin to use id instead of _id",
   "main": "index.js",
@@ -15,17 +15,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tepio/mongoose-plugins.git"
+    "url": "git+https://github.com/tepio/mongoose-rename-id.git"
   },
   "keywords": [
     "mongoose",
     "plugin",
-    "id"
+    "rename",
+    "id",
+    "instead",
+    "_id"
   ],
   "author": "kozzztya",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tepio/mongoose-plugins/issues"
+    "url": "https://github.com/tepio/mongoose-rename-id/issues"
   },
-  "homepage": "https://github.com/tepio/mongoose-plugins#readme"
+  "homepage": "https://github.com/tepio/mongoose-rename-id#readme"
 }
