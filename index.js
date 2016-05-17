@@ -1,9 +1,9 @@
 var _ = require('lodash');
-var mongoose = require('mongoose');
 var hookPlugin = require('mongoose-hook');
 
 module.exports = function (opt) {
   var newIdName = opt.newIdName;
+  var mongoose = opt.mongoose;
   var transformId = function (doc, ret) {
     ret.id = ret._id;
     delete ret._id;

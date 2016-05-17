@@ -5,11 +5,11 @@
   "main": "index.js",
   "dependencies": {
     "lodash": "^4.12.0",
-    "mongoose-hook": "^0.1.5",
-    "mongoose": "^4.4.17"
+    "mongoose-hook": "^0.1.5"
   },
   "devDependencies": {
-    "ava": "^0.14.0"
+    "ava": "^0.14.0",
+    "mongoose": "^4.4.17"
   },
   "scripts": {
     "test": "ava -s"

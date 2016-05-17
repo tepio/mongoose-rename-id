@@ -6,7 +6,7 @@ mongoose.connect('mongodb://localhost:27017/simpleId');
 const renameIdPlugin = require('../');
 
 const schema = new mongoose.Schema({some: Boolean});
-schema.plugin(renameIdPlugin({newIdName: 'id'}));
+schema.plugin(renameIdPlugin({newIdName: 'id', mongoose}));
 const Post = mongoose.model('post', schema);
 
 const { ObjectId } = require('mongoose').mongo;
