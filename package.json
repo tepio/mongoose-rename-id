@@ -1,6 +1,6 @@
 {
   "name": "mongoose-rename-id",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Plugin to use id instead of _id",
   "main": "index.js",
   "dependencies": {
